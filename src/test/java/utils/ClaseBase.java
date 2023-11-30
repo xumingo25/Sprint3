@@ -82,6 +82,11 @@ public class ClaseBase {
         return wait.until(ExpectedConditions.elementToBeClickable(localizador));
     }
 
+    public WebElement esperarPorElementoClickeable(WebElement elemento){
+        wait = new WebDriverWait(this.driver,30);
+        return wait.until(ExpectedConditions.visibilityOf(elemento));
+    }
+
     public String obtenerTexto(By localizador){
         return driver.findElement(localizador).getText();
     }

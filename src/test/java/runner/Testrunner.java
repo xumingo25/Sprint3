@@ -11,8 +11,8 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
 
 @CucumberOptions(
         features = "src/test/java/features",
-        glue = {"glue"},
-        snippets = CAMELCASE
+        glue = {"glue"}
+
 
 )
 public class Testrunner {
