@@ -11,7 +11,8 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
 
 @CucumberOptions(
         features = "src/test/java/features",
-        glue = {"glue"}
+        glue = {"glue"},
+        plugin= {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
 
 
 )

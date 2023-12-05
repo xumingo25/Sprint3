@@ -22,4 +22,4 @@ Feature: Creacion cuenta Spotify
     And Presiono el boton registrarte en home de spotify
     When Ingreso en el campo direccion correo el valor "domingo.saavedra.saavedra@gmail.com" en formulario de registro
     And Presiono el boton siguiente en formulario de registro
-    Then Visualizo mensaje de error "Esta dirección ya está vinculada a una cuenta. Para continuar, inicia sesión."
+    Then Visualizo mensaje de error "Esta direetretercción ya está vinculada a una cuenta. Para continuar, inicia sesión."
